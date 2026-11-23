@@ -19,5 +19,4 @@ def postman():
     else:
         return "empty", 200, {"Content-Type": "text/plain"}
 
-if __name__ == "__main__":
     app.run(port=8000)
